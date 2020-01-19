@@ -50,7 +50,7 @@ enum GameMode {
  */
 // Omit certain features when running on hardware
 const HARDWARE: boolean = control.ramSize() < (1024 * 1024)
-const VERSION: string = '2.0'
+const VERSION: string = '2.1.0'
 
 const BOARD_LOCATIONS: Pixel[] =
     [
